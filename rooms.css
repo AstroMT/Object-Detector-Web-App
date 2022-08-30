@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+body {
+    background-image: linear-gradient(45deg, #DBD2E0, #7B904B, #58641D, #273B09, #002400);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: 'Aboreto', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.button_back {
+    background-color: black;
+    float: right;
+    border-radius: 15px;
+    margin-top: -50px;
+    margin-left: -300px;
+    color: white;
+    padding: 10px 15px;
+    transition-duration: 0.3s;
+    border: 0px;
+}
+
+.button_back:hover {
+    background-color: grey;
+}
+
+.button_back:active {
+    transform: translateY(2px);
+}
+
+.status_class {
+    padding: 15px;
+    background-color: rgb(139, 15, 15);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.info {
+    padding: 10px;
+    background-color: rgb(41, 109, 41);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 15px;
+    
+}
