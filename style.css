@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(45deg, #f7ebec, #ddbdd5, #ac9fbb, #59656f, #1d1e2c);
+    background-image: url("main_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
